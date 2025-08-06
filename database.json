@@ -1,0 +1,139 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "John Doe"
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith"
+    },
+    {
+      "id": "3",
+      "name": "ASH"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "React"
+    },
+    {
+      "id": "2",
+      "name": "JavaScript"
+    },
+    {
+      "id": "3",
+      "name": "Node.js"
+    },
+    {
+      "id": "4",
+      "name": "Tech News"
+    },
+    {
+      "id": "5",
+      "name": "Personal Growth"
+    }
+  ],
+  "blogs": [
+    {
+      "id": "1",
+      "title": "React Basics",
+      "body": "React is a JavaScript library for building user interfaces. It allows developers to create large web applications that can update and render efficiently in response to data changes. The component-based structure of React makes it highly reusable and easy to manage.\n\nIn this blog, we will explore the basics of JSX, state management using useState, and handling props. By understanding these fundamentals, you will be able to create your first React app with ease and confidence.",
+      "snippet": "Learn the fundamentals of React, it is a very user friendly framework.",
+      "userId": 1,
+      "username": "John Doe",
+      "categoryId": 1,
+      "categoryName": "React",
+      "date": "2025-07-20"
+    },
+    {
+      "id": "2",
+      "title": "React Hooks Deep Dive",
+      "body": "Hooks are a new addition in React 16.8 that let you use state and other React features without writing a class. The most commonly used hooks are useState and useEffect.\n\nCustom hooks allow you to extract component logic into reusable functions. This improves code readability and makes your application more maintainable in the long run.",
+      "snippet": "Master React hooks with examples...",
+      "userId": 1,
+      "username": "John Doe",
+      "categoryId": 1,
+      "categoryName": "React",
+      "date": "2025-07-22"
+    },
+    {
+      "id": "3",
+      "title": "React Router Made Easy",
+      "body": "React Router is a powerful library for adding navigation to React applications. It enables routing between different components without reloading the page.\n\nWith dynamic routing, route parameters, and nested routes, you can create seamless navigation experiences. We’ll also cover how to protect routes and create private routes using authentication.",
+      "snippet": "Navigate React apps using React Router...",
+      "userId": 1,
+      "username": "John Doe",
+      "categoryId": 1,
+      "categoryName": "React",
+      "date": "2025-07-25"
+    },
+    {
+      "id": "4",
+      "title": "JavaScript ES6 Features",
+      "body": "ES6 introduced a range of new features to JavaScript including arrow functions, template literals, destructuring, and classes. These features simplify syntax and make your code more concise and readable.\n\nUnderstanding ES6 is essential for modern JavaScript development, especially when working with frameworks like React and Node.js.",
+      "snippet": "Upgrade your JS skills with ES6...",
+      "userId": 2,
+      "username": "Jane Smith",
+      "categoryId": 2,
+      "categoryName": "JavaScript",
+      "date": "2025-07-20"
+    },
+    {
+      "id": "5",
+      "title": "Async/Await in JS",
+      "body": "Async/Await simplifies working with promises in JavaScript. Instead of chaining .then() calls, you can write asynchronous code that looks and behaves like synchronous code.\n\nThis makes error handling with try/catch easier and leads to cleaner, more readable code for handling data fetching, file operations, and more.",
+      "snippet": "Write cleaner async code...",
+      "userId": 2,
+      "username": "Jane Smith",
+      "categoryId": 2,
+      "categoryName": "JavaScript",
+      "date": "2025-07-23"
+    },
+    {
+      "id": "6",
+      "title": "JS Array Methods You Should Know",
+      "body": "JavaScript provides a rich set of methods for arrays such as map, filter, reduce, and forEach. These methods allow developers to manipulate data in a functional and elegant way.\n\nMastering array methods is crucial for data processing and transformation tasks in any JavaScript application.",
+      "snippet": "Manipulate arrays like a pro...",
+      "userId": 2,
+      "username": "Jane Smith",
+      "categoryId": 2,
+      "categoryName": "JavaScript",
+      "date": "2025-07-26"
+    },
+    {
+      "id": "7",
+      "title": "Tech Trends 2025",
+      "body": "In 2025, the technology landscape continues to evolve rapidly. Artificial intelligence, edge computing, and 5G are reshaping how we interact with devices and data.\n\nStartups and enterprises alike are leveraging these technologies to build smarter, faster, and more efficient applications across industries.",
+      "snippet": "Stay ahead with the latest tech trends...",
+      "userId": 3,
+      "username": "ASH",
+      "categoryId": 4,
+      "categoryName": "Tech News",
+      "date": "2025-07-21"
+    },
+    {
+      "id": "8",
+      "title": "Building ThinkLog",
+      "body": "ThinkLog was built using React for the frontend and JSON Server as a lightweight backend. This allowed for rapid prototyping and development.\n\nThe application features blog management, content moderation, and user administration, showcasing the power of modern frontend development combined with mock APIs.",
+      "snippet": "Behind the scenes of ThinkLog...",
+      "userId": 3,
+      "username": "ASH",
+      "categoryId": 4,
+      "categoryName": "Tech News",
+      "date": "2025-07-24"
+    },
+    {
+      "id": "9",
+      "title": "Productivity Hacks for Devs",
+      "body": "Staying productive as a developer requires discipline and smart habits. Techniques like Pomodoro, task batching, and prioritization can drastically improve your output.\n\nTools like code snippets, IDE extensions, and version control best practices also contribute to a smoother development workflow.",
+      "snippet": "Work smarter, not harder...",
+      "userId": 3,
+      "username": "ASH",
+      "categoryId": 5,
+      "categoryName": "Personal Growth",
+      "date": "2025-07-28"
+    }
+  ]
+}
